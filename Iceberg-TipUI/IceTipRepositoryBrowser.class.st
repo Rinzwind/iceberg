@@ -118,7 +118,7 @@ IceTipRepositoryBrowser >> initializeSidebarTree [
 		hideColumnHeaders;
 		addColumn: (SpCompositeTableColumn new
 			addColumn: (SpImageTableColumn new
-				evaluated: #icon;
+				evaluated: #iconFormSet;
 				beNotExpandable;
 				yourself);
 			addColumn: (SpStringTableColumn new
