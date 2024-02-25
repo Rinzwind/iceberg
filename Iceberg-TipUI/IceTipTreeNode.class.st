@@ -47,11 +47,6 @@ IceTipTreeNode >> doesNotUnderstand: aMessage [
 ]
 
 { #category : 'accessing' }
-IceTipTreeNode >> icon [
-	^ self iconFormSet ifNotNil: [ :formSet | formSet asForm ]
-]
-
-{ #category : 'accessing' }
 IceTipTreeNode >> iconFormSet [
 	^ iconFormSet
 ]
